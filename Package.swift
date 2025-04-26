@@ -11,7 +11,7 @@ let package = Package(
             targets: ["DetailModule"]),
     ],
     dependencies: [
-        .package(path: "../CoreModule")
+        .package(url: "https://github.com/diki-haryadi/GGameCatalogCoreModule.git", branch: "main")
     ],
     targets: [
         .target(
